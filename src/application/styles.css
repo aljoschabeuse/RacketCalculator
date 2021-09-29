@@ -1,0 +1,141 @@
+.root {
+	-fx-background-color: #cadc6d;
+}
+
+.line {
+	-fx-stroke: #e9007e;
+}
+
+.changeFiliale {
+	-fx-background-color: transparent;
+}
+
+.confirmBtn {
+	-fx-text-fill: #e9007e;
+	-fx-font-size: 18pt;
+	-fx-border-color: #e9007e;
+	-fx-background-color: lightgray;
+	-fx-border-radius: 10, 10, 10, 10;
+	-fx-background-radius: 10, 10, 10, 10;
+}
+
+.spinner .text-field {
+	-fx-text-fill: red;
+	-fx-border-color: #e9007e;
+	-fx-text-alignment: center;
+}
+
+.spinner {
+	-fx-background-color: null;
+	-fx-border-color: null;
+	-fx-padding: 10;
+}
+
+.spinner .increment-arrow-button .increment-arrow {
+	-fx-background-color: #e9007e;
+}
+
+.spinner .decrement-arrow-button .decrement-arrow {
+	-fx-background-color: #e9007e;
+}
+
+.spinner .increment-arrow-button {
+	-fx-text-fill: red;
+	-fx-border-color: #e9007e;
+}
+
+.spinner .decrement-arrow-button {
+	-fx-border-color: #e9007e;
+}
+
+.check-box {
+	-fx-font-size: 18pt;
+	-fx-text-fill: #e9007e;
+}
+
+.check-box:disabled {
+	-fx-opacity: 1.0;
+}
+
+.check-box:disabled .box {
+	-fx-background-color: lightgray;
+	-fx-border-color: gray;
+}
+
+.check-box .label {
+	-fx-text-fill: #e9007e;
+	-fx-background-color: #e9007e;
+}
+
+.check-box .box {
+	-fx-background-color: white;
+	-fx-border-color: #e9007e;
+	-fx-border-radius: 10, 10, 10, 10;
+	-fx-background-radius: 10, 10, 10, 10;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #e9007e;
+}
+
+.radio-button .radio {
+	-fx-font-size: 10pt;
+	-fx-text-fill: #e9007e;
+}
+
+.radio-button .dot {
+	-fx-mark-color: #e9007e;
+	-fx-mark-highlight-color: #e9007e;
+}
+
+.radio-button {
+	-fx-font-size: 20;
+	-fx-text-fill: #e9007e;
+	-fx-button-size: 4pt;
+}
+
+.toggle-button {
+	-fx-fill: #e9007e;
+	-fx-background-color: #e9007e;
+	-fx-border-width: 50pt;
+}
+
+.label {
+	-fx-text-fill: #e9007e;
+}
+
+.text-area {
+	-fx-border-radius: 10, 10, 0, 0;
+	-fx-background-radius: 10, 10, 0, 0;
+}
+
+.playertextfield {
+	-fx-text-fill: #e9007e;
+	-fx-border-color: #e9007e;
+  	-fx-border-style: dotted;
+  	-fx-border-width: 2pt;
+  	-fx-border-radius: 20, 20, 0, 0;
+	-fx-background-radius: 20, 20, 10, 0;
+}
+
+.playertextfield:focused {
+	-fx-text-fill: white;
+    -fx-background-color: #e9007e;
+    -fx-border-style: dashed;
+    -fx-border-width: 2pt;
+    -fx-border-radius: 20, 20, 0, 0;
+	-fx-background-radius: 20, 20, 10, 0;
+}
+
+.darkgreen {
+	-fx-border-width: 0px;
+	-fx-border-style: dashed;
+}
+
+.radiobutton {
+	-fx-font-size: 36pt;
+}
+
+.titlelabel {
+	-fx-font-weight: bold;
+}
